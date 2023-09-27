@@ -1,4 +1,4 @@
-onst fs = require('fs');
+const fs = require('fs');
 
 async function countStudents(path) {
   if (fs.existsSync(path)) {
